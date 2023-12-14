@@ -10,7 +10,7 @@ body{
     margin-top: 360px;
 }
 .btn{
-    border: 1px solid #FEBE00;
+    border: 2px solid #27374d;
     border-radius: 8px;
     background: none;
     padding: 10px 20px;
@@ -23,7 +23,7 @@ body{
     overflow: hidden;
 }
 .btn1{
-    color: #FEBE00;
+    color: #000;
 }
 .btn1:hover{
     color: #fff;
@@ -35,7 +35,7 @@ body{
     left: 0;
     width: 100%;
     height: 0%;
-    background: #FEBE00;
+    background: #27374d;
     z-index: -1;
     transition: 0.5s;
 }
@@ -51,14 +51,14 @@ body{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: #24252a;
+    background-color: #9db2bf;
 }
 
 li, a, button {
     font-family: "montserrat";
     font-weight: 500;
     font-size: 16px;
-    color: #FEBE00;
+    color: #fff;
     text-decoration: none;
 }
 
@@ -68,7 +68,7 @@ li, a, button {
     display: flex;
     justify-content: space-between;
     padding: 20px;
-    background-color: #191919;
+    background-color: #27374d;
 }
 
 .logo {
@@ -76,26 +76,26 @@ li, a, button {
     color: #fff;
     font-size: medium;
     font-family: "montserrat";
-    background-color: #191919;
+    background-color: #27374d;
 }
 span{
-    color: #FEBE00;
+    color: #27374d;
 }
 
 .nav_links li {
     display: inline-block;
     padding: 20px 15px;
-    background-color: #191919;
+    background-color: #27374d;
 }
 
 .nav_links li a {
     transition: all 0.3s ease 0s;
-    background-color: #191919;
+    background-color: #27374d;
 }
 
 .nav_links li a:hover {
     transition: all 0.3s ease 0s;
-    color: white;
+    color: #526d82;
 }
 
 
@@ -105,20 +105,22 @@ span{
     position: absolute;
     top: 30%;
     left: 5%;
+    
 }
 h1{
-    color: white;
+    color: #27374d;
     margin: 20px 0px 20px;
     font-size: 45px;
+    
 }
 h3{
-    color: white;
+    color: #27374d;
     font-size: 20px;
     margin-bottom: 25px;
     text-align: left;
 }
 h4{
-    color: #FEBE00;
+    color: #fff;
     font-size: 20px;
     text-align: left;
 }
@@ -129,7 +131,7 @@ h4{
     margin-bottom: 60px;
     padding: 100px;
     font-family: "montserrat";
-    background-color: #191919;
+    background-color: #526d82;
 }
 .profile img {
     height: auto;
@@ -145,17 +147,17 @@ h4{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background-color: #191919;
+    background-color: #526d82;
 }
 .profile-company h2 {
-    background-color: #191919;
+    background-color: #526d82;
     color: white;
     font-size: 40px;
     text-transform: capitalize;
     margin-top: 20px;
 }
 .profile-company h5 {
-    background-color: #191919;
+    background-color: #526d82;
     color: white;
     font-size: 12px;
     margin-bottom: 30px;
@@ -163,7 +165,7 @@ h4{
 
 }
 .profile-company p {
-    background-color: #191919;
+    background-color: #526d82;
     color: white;
     text-align: justify;
     line-height: 26px;
@@ -173,7 +175,7 @@ h4{
 
 /* Position Section */
 .position{
-    background:#24252a;
+    background:#526d82;
     width: 100%;
     padding: 100px 0px;
 }
@@ -200,7 +202,7 @@ h4{
     height: 365px;
     width: 300px;
     padding: 20 35px;
-    background-color: #191919;
+    background-color: #526d82;
     border-radius: 20px;
     margin: 15px;
     position: relative;
@@ -212,7 +214,8 @@ h4{
 
 .card h1 {
     font-size: 25px;
-    background-color: #191919;
+    color: #fff;
+    background-color: #526d82;
 }
 
 .card i {
@@ -220,8 +223,8 @@ h4{
     display: block;
     text-align: center;
     margin: 80px;
-    color: #FEBE00;
-    background-color: #191919;
+    color: #27374d;
+    background-color: #526d82;
 
 }
 
@@ -232,7 +235,7 @@ h4{
     padding-top: 40px;
     padding-bottom: 80px;
     color: white;
-    background-color: #191919;
+    background-color: #526d82;
 }
 
 
@@ -240,7 +243,7 @@ h4{
 .employee {
     width: 100%;
     height: 290%;
-    background: #191919;
+    background: #526d82;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -254,12 +257,12 @@ h4{
     font-size: 28px;
     font-weight: bold;
     margin-bottom: 14px;
-    background-color: #191919;
+    background-color: #526d82;
 
 }
 
 .employee .btn0{
-    border: 1px solid #FEBE00;
+    border: 2px solid #27374d;
     border-radius: 8px;
     background: none;
     padding: 10px 20px;
@@ -273,7 +276,7 @@ h4{
 }
 
 .employee .btn2 {
-    color: #FEBE00;
+    color: #000;
 }
 
 .employee .btn2:hover{
@@ -287,7 +290,7 @@ h4{
     left: 0;
     width: 100%;
     height: 0%;
-    background: #FEBE00;
+    background: #27374d;
     z-index: -1;
     transition: 0.5s;
 }
@@ -316,14 +319,15 @@ footer{
     justify-content: center;
     flex-direction: column;
     text-align: center;
-    background: #191919;
+    background: #27374d;
 }
 .footer-content h3 {
     font-weight: 400;
     text-transform: capitalize;
     text-align: center;
     padding-top: 100px;
-    background-color: #191919;
+    color: #fff;
+    background-color: #27374d;
 }
 .footer-content p {
     margin: 10px;
@@ -331,7 +335,7 @@ footer{
     max-width: 500px;
     margin: 5px;
     font-size: 14px;
-    background-color: #191919;
+    background-color: #27374d;
 }
 .socials{
     list-style: none;
@@ -346,21 +350,21 @@ footer{
 .socials a {
     text-decoration: none;
     padding: 10px;
-    background-color: #191919;
-    color: #FEBE00
+    background-color: #27374d;
+    color: #fff
 }
 .socials a i {
     font-size: 1.1rem;
     transition: color .4s ease;
-    background-color: #191919;
+    background-color: #27374d;
 }
 .socials a:hover i {
-    color: #fff
+    color: #526d82
 }
 .footer-bottom{
     padding: 5px 0;
     text-align: center;
-    background-color: #191919;
+    background-color: #27374d;
 }
 .footer-bottom p {
     font-size: 14px;
